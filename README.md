@@ -57,7 +57,7 @@ cd sistemas_expertos
 ````
 Instalar las dependencias
 ````
-  pip install -r requeriments
+  pip install -r requeriments.txt
 ````
 Para iniciar el proyecto:
 ````
