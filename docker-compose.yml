@@ -1,0 +1,15 @@
+version: '2' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  frontend: # name of the first service
+    build: frontend # specify the directory of the Dockerfile
+    ports:
+        - '4200:4200'
+        - '49153:49153'
+    command: npm start    
+  sistemas_expertos:
+    build: sistemas_expertos 
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000" 

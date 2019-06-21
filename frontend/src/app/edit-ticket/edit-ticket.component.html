@@ -1,0 +1,52 @@
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Agregar Ticket</h4>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <div class="p-3 mb-2 bg-danger text-white" *ngIf="invalidForm">Verifique los campos</div>
+        <form [formGroup]="ticketForm" (ngSubmit)="onSubmit()" class="needs-validation">
+        <div class="form-group">
+          <label for="Titulo">Titulo :</label>
+          <input type="titulo" class="form-control" formControlName="titulo" id="titulo">
+          <div *ngIf="submitted && loginForm.controls.titulo.errors" class="error">
+            <div *ngIf="loginForm.controls.titulo.errors.required">Titulo requerido</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Descripcion:</label>
+          <input type="descripcion" class="form-control" formControlName="descripcion" id="pwd">
+          <div *ngIf="submitted && loginForm.controls.descripcion.errors" class="error">
+            <div *ngIf="loginForm.controls.descripcion.errors.required">Descripcion requerido</div>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select class="custom-select"   formControlName="estado">
+                <option value="" disabled>Elija un Estado</option>
+                <option *ngFor="let es of estados" [ngValue]="es">{{es}}</option>
+              </select>
+          </div> 
+          <div class="form-group">
+              <label for="Usuario">Usuario:</label>
+              <select class="custom-select"   (ngModelChange)="selectChangeUser($event)"  formControlName="usuario">
+                  <option value="" disabled>Elija un Usuario</option>
+                  <option *ngFor="let user of usersData" 
+                      [value]="user.id" 
+                      [attr.selected]="user.id ==1 ? true : null">
+                    {{user.username}}{{user.id}}
+                  </option>
+
+                </select>
+            </div> 
+
+
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="onSubmit()">Guardar</button>
+    </div>
+  </ng-template>
+  <button  type="button" class="btn btn-success" (click)="open(content)">Nuevo</button>

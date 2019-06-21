@@ -1,0 +1,992 @@
+[{
+	"model": "tickets.ticket",
+	"pk": 50,
+	"fields": {
+		"titulo": "Quimper",
+		"descripcion": "nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce",
+		"usuario": 3,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 51,
+	"fields": {
+		"titulo": "Starachowice",
+		"descripcion": "metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in,",
+		"usuario": 1,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 52,
+	"fields": {
+		"titulo": "Imphal",
+		"descripcion": "nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim.",
+		"usuario": 3,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 53,
+	"fields": {
+		"titulo": "Mission",
+		"descripcion": "ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 54,
+	"fields": {
+		"titulo": "San Leucio del Sannio",
+		"descripcion": "Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 55,
+	"fields": {
+		"titulo": "Veenendaal",
+		"descripcion": "sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante",
+		"usuario": 3,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 56,
+	"fields": {
+		"titulo": "Tonk",
+		"descripcion": "Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 57,
+	"fields": {
+		"titulo": "Rexton",
+		"descripcion": "in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam.",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 58,
+	"fields": {
+		"titulo": "Harelbeke",
+		"descripcion": "neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 59,
+	"fields": {
+		"titulo": "Bonnyrigg",
+		"descripcion": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis.",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 60,
+	"fields": {
+		"titulo": "Emines",
+		"descripcion": "varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper erat, in consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 61,
+	"fields": {
+		"titulo": "Boncelles",
+		"descripcion": "Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 62,
+	"fields": {
+		"titulo": "Tumbler Ridge",
+		"descripcion": "non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo, in lobortis tellus justo",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 63,
+	"fields": {
+		"titulo": "Koekelberg",
+		"descripcion": "et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 64,
+	"fields": {
+		"titulo": "Santarcangelo di Romagna",
+		"descripcion": "sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh",
+		"usuario": 1,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 65,
+	"fields": {
+		"titulo": "Fallais",
+		"descripcion": "massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 66,
+	"fields": {
+		"titulo": "King's Lynn",
+		"descripcion": "Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 67,
+	"fields": {
+		"titulo": "Montecarotto",
+		"descripcion": "Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo eu arcu.",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 68,
+	"fields": {
+		"titulo": "Cupar",
+		"descripcion": "conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet",
+		"usuario": 1,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 69,
+	"fields": {
+		"titulo": "Fraser Lake",
+		"descripcion": "lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices.",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 70,
+	"fields": {
+		"titulo": "Lienz",
+		"descripcion": "taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper,",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 71,
+	"fields": {
+		"titulo": "Monceau-Imbrechies",
+		"descripcion": "Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est.",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 72,
+	"fields": {
+		"titulo": "Varanasi",
+		"descripcion": "enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 73,
+	"fields": {
+		"titulo": "Arlon",
+		"descripcion": "aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis non, cursus non, egestas a, dui. Cras pellentesque. Sed dictum.",
+		"usuario": 2,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 74,
+	"fields": {
+		"titulo": "Yorkton",
+		"descripcion": "dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 75,
+	"fields": {
+		"titulo": "Gressoney-Saint-Jean",
+		"descripcion": "fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing,",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 76,
+	"fields": {
+		"titulo": "San José de Maipo",
+		"descripcion": "Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 77,
+	"fields": {
+		"titulo": "New Orleans",
+		"descripcion": "sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 78,
+	"fields": {
+		"titulo": "St. Albert",
+		"descripcion": "a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 79,
+	"fields": {
+		"titulo": "Cuxhaven",
+		"descripcion": "quam quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci. Donec",
+		"usuario": 2,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 80,
+	"fields": {
+		"titulo": "Lairg",
+		"descripcion": "scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus dolor",
+		"usuario": 3,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 81,
+	"fields": {
+		"titulo": "Gentbrugge",
+		"descripcion": "Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus",
+		"usuario": 1,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 82,
+	"fields": {
+		"titulo": "Ludhiana",
+		"descripcion": "sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus.",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 83,
+	"fields": {
+		"titulo": "Roxboro",
+		"descripcion": "mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis non, cursus non, egestas a, dui. Cras",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 84,
+	"fields": {
+		"titulo": "Boo",
+		"descripcion": "dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl.",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 85,
+	"fields": {
+		"titulo": "Taber",
+		"descripcion": "Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo eu arcu.",
+		"usuario": 2,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 86,
+	"fields": {
+		"titulo": "Scala Coeli",
+		"descripcion": "ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis",
+		"usuario": 2,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 87,
+	"fields": {
+		"titulo": "Le Petit-Quevilly",
+		"descripcion": "Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus.",
+		"usuario": 3,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 88,
+	"fields": {
+		"titulo": "Bridgwater",
+		"descripcion": "vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec",
+		"usuario": 1,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 89,
+	"fields": {
+		"titulo": "Fremantle",
+		"descripcion": "et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 90,
+	"fields": {
+		"titulo": "Getafe",
+		"descripcion": "venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor.",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 91,
+	"fields": {
+		"titulo": "Bloxham",
+		"descripcion": "ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing ligula. Aenean gravida nunc sed pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique pharetra. Quisque ac libero nec ligula",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 92,
+	"fields": {
+		"titulo": "Schiltigheim",
+		"descripcion": "per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 93,
+	"fields": {
+		"titulo": "Port Glasgow",
+		"descripcion": "sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere,",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 94,
+	"fields": {
+		"titulo": "Houthalen",
+		"descripcion": "eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis non, cursus non, egestas a, dui. Cras pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam consequat",
+		"usuario": 3,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 95,
+	"fields": {
+		"titulo": "Namur",
+		"descripcion": "eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 96,
+	"fields": {
+		"titulo": "Bendigo",
+		"descripcion": "neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 97,
+	"fields": {
+		"titulo": "West Ham",
+		"descripcion": "vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi.",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 98,
+	"fields": {
+		"titulo": "Rio Marina",
+		"descripcion": "et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 99,
+	"fields": {
+		"titulo": "Philadelphia",
+		"descripcion": "convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 100,
+	"fields": {
+		"titulo": "Napoli",
+		"descripcion": "dictum mi, ac mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer",
+		"usuario": 2,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 101,
+	"fields": {
+		"titulo": "Franeker",
+		"descripcion": "Quisque ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor quis, tristique ac, eleifend",
+		"usuario": 3,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 102,
+	"fields": {
+		"titulo": "Castellafiume",
+		"descripcion": "Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa.",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 103,
+	"fields": {
+		"titulo": "Söke",
+		"descripcion": "inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 104,
+	"fields": {
+		"titulo": "Whitby",
+		"descripcion": "Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 105,
+	"fields": {
+		"titulo": "Aydın",
+		"descripcion": "magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 106,
+	"fields": {
+		"titulo": "Monte San Giovanni in Sabina",
+		"descripcion": "velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 107,
+	"fields": {
+		"titulo": "Fogo",
+		"descripcion": "hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo eu",
+		"usuario": 2,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 108,
+	"fields": {
+		"titulo": "Serrata",
+		"descripcion": "et risus. Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper erat, in consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor",
+		"usuario": 1,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 109,
+	"fields": {
+		"titulo": "Wiesbaden",
+		"descripcion": "Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet,",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 110,
+	"fields": {
+		"titulo": "Galashiels",
+		"descripcion": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna.",
+		"usuario": 2,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 111,
+	"fields": {
+		"titulo": "Ragnies",
+		"descripcion": "tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet,",
+		"usuario": 1,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 112,
+	"fields": {
+		"titulo": "Quemchi",
+		"descripcion": "at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes,",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 113,
+	"fields": {
+		"titulo": "Dublin",
+		"descripcion": "lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 114,
+	"fields": {
+		"titulo": "Goulburn",
+		"descripcion": "Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per",
+		"usuario": 2,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 115,
+	"fields": {
+		"titulo": "Chaumont-Gistoux",
+		"descripcion": "a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam",
+		"usuario": 1,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 116,
+	"fields": {
+		"titulo": "Sint-Pieters-Woluwe",
+		"descripcion": "justo sit amet nulla. Donec non justo. Proin non massa non ante bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non,",
+		"usuario": 1,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 117,
+	"fields": {
+		"titulo": "Villafalletto",
+		"descripcion": "mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus",
+		"usuario": 1,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 118,
+	"fields": {
+		"titulo": "Grado",
+		"descripcion": "a odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis non, cursus",
+		"usuario": 1,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 119,
+	"fields": {
+		"titulo": "Gasteiz",
+		"descripcion": "a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus.",
+		"usuario": 3,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 120,
+	"fields": {
+		"titulo": "Norfolk",
+		"descripcion": "velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero.",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 121,
+	"fields": {
+		"titulo": "Sachs Harbour",
+		"descripcion": "sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in",
+		"usuario": 2,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 122,
+	"fields": {
+		"titulo": "Stokrooie",
+		"descripcion": "Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor quis, tristique ac, eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque.",
+		"usuario": 3,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 123,
+	"fields": {
+		"titulo": "Québec City",
+		"descripcion": "dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus sit amet ante. Vivamus non lorem vitae odio sagittis semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris, rhoncus id, mollis nec, cursus a,",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 124,
+	"fields": {
+		"titulo": "Harrison Hot Springs",
+		"descripcion": "vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 125,
+	"fields": {
+		"titulo": "Banff",
+		"descripcion": "aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 126,
+	"fields": {
+		"titulo": "Nederokkerzeel",
+		"descripcion": "at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor quis, tristique ac, eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat.",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 127,
+	"fields": {
+		"titulo": "Kolmont",
+		"descripcion": "aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 128,
+	"fields": {
+		"titulo": "Mora",
+		"descripcion": "Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl.",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 129,
+	"fields": {
+		"titulo": "Gasteiz",
+		"descripcion": "amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut",
+		"usuario": 1,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 130,
+	"fields": {
+		"titulo": "Gary",
+		"descripcion": "arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 131,
+	"fields": {
+		"titulo": "La Hulpe",
+		"descripcion": "ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac",
+		"usuario": 1,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 132,
+	"fields": {
+		"titulo": "Cinisi",
+		"descripcion": "urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum",
+		"usuario": 1,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 133,
+	"fields": {
+		"titulo": "Bo'ness",
+		"descripcion": "eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 134,
+	"fields": {
+		"titulo": "Chandler",
+		"descripcion": "bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus,",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 135,
+	"fields": {
+		"titulo": "Sellia Marina",
+		"descripcion": "Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam",
+		"usuario": 2,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 136,
+	"fields": {
+		"titulo": "Martigues",
+		"descripcion": "Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem,",
+		"usuario": 1,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 137,
+	"fields": {
+		"titulo": "Skövde",
+		"descripcion": "eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque",
+		"usuario": 2,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 138,
+	"fields": {
+		"titulo": "Strijtem",
+		"descripcion": "tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi",
+		"usuario": 2,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 139,
+	"fields": {
+		"titulo": "Campbellton",
+		"descripcion": "lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac",
+		"usuario": 3,
+		"estado": "en proceso",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 140,
+	"fields": {
+		"titulo": "Chesterfield",
+		"descripcion": "Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla.",
+		"usuario": 1,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 141,
+	"fields": {
+		"titulo": "Boise",
+		"descripcion": "natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum",
+		"usuario": 3,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 142,
+	"fields": {
+		"titulo": "Curacautín",
+		"descripcion": "arcu iaculis enim, sit amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing ligula. Aenean gravida nunc sed pede. Cum sociis",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 143,
+	"fields": {
+		"titulo": "Ulm",
+		"descripcion": "libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut",
+		"usuario": 3,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 144,
+	"fields": {
+		"titulo": "Melville",
+		"descripcion": "tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper",
+		"usuario": 2,
+		"estado": "abierto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 145,
+	"fields": {
+		"titulo": "FerriŽres",
+		"descripcion": "elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu",
+		"usuario": 1,
+		"estado": "pendiente",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 146,
+	"fields": {
+		"titulo": "Chelsea",
+		"descripcion": "blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede et risus. Quisque libero lacus, varius",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 147,
+	"fields": {
+		"titulo": "Ottawa",
+		"descripcion": "non justo. Proin non massa non ante bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede.",
+		"usuario": 1,
+		"estado": "cerrado",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+}, {
+	"model": "tickets.ticket",
+	"pk": 148,
+	"fields": {
+		"titulo": "Tuglie",
+		"descripcion": "nunc sit amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede et risus. Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet",
+		"usuario": 3,
+		"estado": "resuelto",
+		"fecha_creacion": "2019-06-19T20:46:55.634000Z"
+	}
+
+}]

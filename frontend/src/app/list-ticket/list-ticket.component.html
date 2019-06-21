@@ -1,0 +1,134 @@
+<div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                    <a routerLink="" routerLinkActive="active">Ir a Login</a>
+            </div>
+                <div class="col-md-3">
+                        <input [(ngModel)]="searchText" placeholder="Escriba el ticket a buscar">
+            
+                </div>
+                <div class="col-md-3">
+                        <div class="form-check" *ngIf="canAdd">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1" [(ngModel)]="only_my_tickets">
+                                <label class="form-check-label" for="gridCheck1">
+                                  Mis Tickets
+                                </label>
+                              </div>
+
+                </div>
+                <div class="col-md-3">
+                    <app-edit-ticket *ngIf="canAdd"></app-edit-ticket> 
+            
+            
+                </div>
+                <div class="col-md-12">
+                        <div class="container">
+                                <ngb-tabset >
+                                    <ngb-tab title="Abiertos" >
+                                            <ng-template ngbTabContent>
+                                                <br/>
+                                                <div class="row">
+                                                    <div class="col col-md-12" *ngFor="let detail of data | filter : searchText">
+
+                                                            <div class="card" *ngIf="(detail.estado =='abierto') && (!(only_my_tickets) ||	 (only_my_tickets == true && idUser == detail.user_detail.id))">
+                                                                    <div class="card-header "> 
+                                                                            <h5 class="card-title">#{{detail.id}}- {{detail.titulo}}</h5>
+                                                                        </div>
+                                                                        <div class="card-body ">
+                                                                            <p class="card-text">{{detail.descripcion}}</p>
+                                                                        </div>
+                                                                        <footer class="bg-secondary text-white">asignado a : {{detail.user_detail.username}}  a las {{detail.fecha_creacion | date:'dd/mm/yyyy  h:mm a'}}</footer>
+                                                            </div>
+                                                    </div>	
+                                                </div>
+                                            </ng-template>
+                                        </ngb-tab>
+                                        <ngb-tab title="Pendientes">
+                                            <ng-template ngbTabContent>
+                                                    <br/>
+                                                    <div class="row">
+    
+                                                        <div class="col col-md-12" *ngFor="let detail of data  | filter : searchText" >
+                                                            
+                                                            <div class="card" *ngIf="detail.estado =='pendiente' && (!(only_my_tickets) ||	 (only_my_tickets == true && idUser == detail.user_detail.id))">
+                                                                    <div class="card-header "> 
+                                                                            <h5 class="card-title">#{{detail.id}}- {{detail.titulo}}</h5>
+                                                                        </div>
+                                                                        <div class="card-body ">
+                                                                            <p class="card-text">{{detail.descripcion}}</p>
+                                                                        </div>
+                                                                        <footer class="bg-secondary text-white">asignado a : {{detail.user_detail.username}}  a las {{detail.fecha_creacion | date:'dd/mm/yyyy  h:mm a'}}</footer>
+                                                            </div>
+                                                        </div>	
+                                                    </div>
+                                            </ng-template>
+                                        </ngb-tab>
+                                        <ngb-tab title="En Proceso">
+                                            <ng-template ngbTabContent>
+                                                    <br/>
+                                                    <div class="row">
+    
+                                                        <div class="col col-md-12" *ngFor="let detail of data  | filter : searchText" >
+                                                            
+                                                                <div class="card" *ngIf="detail.estado =='en proceso' && (!(only_my_tickets) ||	 (only_my_tickets == true && idUser == detail.user_detail.id))">
+                                                                        <div class="card-header "> 
+                                                                                <h5 class="card-title">#{{detail.id}}- {{detail.titulo}}</h5>
+                                                                            </div>
+                                                                            <div class="card-body ">
+                                                                                <p class="card-text">{{detail.descripcion}}</p>
+                                                                            </div>
+                                                                            <footer class="bg-secondary text-white">asignado a : {{detail.user_detail.username}}  a las {{detail.fecha_creacion | date:'dd/mm/yyyy  h:mm a'}}</footer>
+                                                                </div>
+                                                        </div>	
+                                                    </div>
+                                            </ng-template>
+                                        </ngb-tab>
+                                
+                                        <ngb-tab title="Resuelto">
+                                            <ng-template ngbTabContent>
+                                                    <br/>
+                                                    <div class="row">
+    
+                                                        <div class="col col-md-12" *ngFor="let detail of data  | filter : searchText" >
+                                                            
+                                                                <div class="card" *ngIf="detail.estado =='resuelto' && (!(only_my_tickets) ||	 (only_my_tickets == true && idUser == detail.user_detail.id))">
+                                                                        <div class="card-header "> 
+                                                                                <h5 class="card-title">#{{detail.id}}- {{detail.titulo}}</h5>
+                                                                            </div>
+                                                                            <div class="card-body ">
+                                                                                <p class="card-text">{{detail.descripcion}}</p>
+                                                                            </div>
+                                                                            <footer class="bg-secondary text-white">asignado a : {{detail.user_detail.username}}  a las {{detail.fecha_creacion | date:'dd/mm/yyyy  h:mm a'}}</footer>
+                                                                </div>
+                                                        </div>	
+                                                    </div>
+                                            </ng-template>
+                                        </ngb-tab>
+                                    
+                                        <ngb-tab title="Cerrado">
+                                            <ng-template ngbTabContent>
+                                                    <br/>
+                                                    <div class="row">
+    
+                                                        <div class="col col-md-12" *ngFor="let detail of data  | filter : searchText" >
+
+                                                                <div class="card" *ngIf="detail.estado =='cerrado' && (!(only_my_tickets) ||	 (only_my_tickets == true && idUser == detail.user_detail))">
+                                                                        <div class="card-header "> 
+                                                                                <h5 class="card-title">#{{detail.id}}- {{detail.titulo}}</h5>
+                                                                            </div>
+                                                                            <div class="card-body ">
+                                                                                <p class="card-text">{{detail.descripcion}}</p>
+                                                                            </div>
+                                                                            <footer class="bg-secondary text-white">asignado a : {{detail.user_detail.username}}  a las {{detail.fecha_creacion | date:'dd/mm/yyyy  h:mm a'}}</footer>
+                                                                </div>
+                                                        </div>	
+                                                    </div>
+                                            </ng-template>
+                                        </ngb-tab>
+                                    </ngb-tabset>
+                            </div>
+            
+            
+                </div>
+            </div>
+</div>
