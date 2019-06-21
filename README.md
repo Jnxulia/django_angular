@@ -10,7 +10,7 @@ Simple Crud con Angular y Django usando contenedores
   ### Descargar el repositorio
   
   ````
-  git clone https://github.com/Jnxulia/django_angular.git
+ git clone https://github.com/Jnxulia/django_angular.git
   ````
 
 ### Ubiquese en la Raiz del proeycto y Ejecute el docker compose 
@@ -38,7 +38,7 @@ cd frontend
 
 Para instalar dependencias ejecute:
 ````
-  npm install
+npm install
 ```` 
 Para iniciar el proyecto:
 ````
@@ -57,10 +57,10 @@ cd sistemas_expertos
 ````
 Instalar las dependencias
 ````
-  pip install -r requeriments.txt
+pip install -r requeriments.txt
 ````
 Para iniciar el proyecto:
 ````
 python manage.py runserver
 ````
-
+https://github.com/Jnxulia/django_angular
