@@ -13,7 +13,7 @@ Simple Crud con Angular y Django usando contenedores
  git clone https://github.com/Jnxulia/django_angular.git
   ````
 
-### Ubiquese en la Raiz del proeycto y Ejecute el docker compose 
+### Ubiquese en la Raiz del proyecto y Ejecute el docker compose 
 ````
 docker-compose up
 ````
