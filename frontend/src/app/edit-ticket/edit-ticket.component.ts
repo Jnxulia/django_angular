@@ -59,7 +59,7 @@ export class EditTicketComponent   {
     } 
     this.subscription = this.service.createTicket(ticket).subscribe((res)=>{
       this.modalReference.close();  
-      this.router.navigate(['list-ticket']);
+      window.location.reload(false); 
       
     }, error=>{
       console.info(error)
