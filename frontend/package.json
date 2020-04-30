@@ -21,7 +21,7 @@
     "@angular/router": "~8.0.1",
     "@ng-bootstrap/ng-bootstrap": "^4.2.1",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "^4.3.0",
     "ngx-filter-pipe": "^2.1.2",
     "popper": "^1.0.1",
